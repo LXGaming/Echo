@@ -1,5 +1,5 @@
 /*
- * Copyright 2019 lolnet.co.nz
+ * Copyright 2019 Alex Thomson
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package nz.co.lolnet.echo;
+package io.github.lxgaming.echo;
 
 import com.google.inject.Inject;
-import nz.co.lolnet.echo.command.EchoCommand;
-import nz.co.lolnet.echo.listener.EchoListener;
-import nz.co.lolnet.echo.util.Reference;
+import io.github.lxgaming.echo.command.EchoCommand;
+import io.github.lxgaming.echo.listener.EchoListener;
+import io.github.lxgaming.echo.util.Reference;
 import org.slf4j.Logger;
 import org.spongepowered.api.Sponge;
 import org.spongepowered.api.command.args.GenericArguments;
